@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en"
+      xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:f="http://java.sun.com/jsf/core"
+      xmlns:h="http://java.sun.com/jsf/html"
+      xmlns:ui="http://java.sun.com/jsf/facelets"
+      xmlns:p="http://primefaces.org/ui">
+
+<f:view contentType="text/html" locale="en">
+    <h:head>
+        <title>THird</title>
+    </h:head>
+    <h:body styleClass="mainBody">
+        ${testComponent.secondOne} THIRD!!!
+
+        <h:form>
+            <h:commandLink value="Go back home" action="${testComponent.goToHome()}" />
+        </h:form>
+
+    </h:body>
+</f:view>
+</html>
