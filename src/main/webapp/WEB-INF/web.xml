@@ -57,8 +57,22 @@
     </context-param>
 
     <context-param>
+        <!--
+            All files in the 3 paths defined below will be scanned and made available
+            as extensionless JSF views. Since no explicit extension is given for scanning,
+            these paths should contain ONLY JSF (Facelets) files.
+         -->
         <param-name>org.omnifaces.FACES_VIEWS_SCAN_PATHS</param-name>
-        <param-value>/*.xhtml</param-value>
+        <param-value>/view,/etc</param-value>
+    </context-param>
+    <context-param>
+        <!--
+            Redirects the faces views scanned /showcase/[PAGE].xhtml to /[PAGE].
+            A 404 would normally be preferred (and this is thus the default), but the showcase app
+            already has published /showcase/[PAGE].xhtml
+        -->
+        <param-name>org.omnifaces.FACES_VIEWS_PATH_ACTION</param-name>
+        <param-value>REDIRECT_TO_SCANNED_EXTENSIONLESS</param-value>
     </context-param>
 
     <!-- Configures Spring Application Context -->

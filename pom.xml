@@ -14,6 +14,9 @@
         <maven.compiler.target>1.8</maven.compiler.target>
 
         <springframework.version>4.2.2.RELEASE</springframework.version>
+        <omnifaces.version>2.1</omnifaces.version>
+        <primefaces.version>5.3</primefaces.version>
+        <primefaces.ext.version>3.2.0</primefaces.ext.version>
     </properties>
 
     <dependencies>
@@ -85,7 +88,36 @@
         <dependency>
             <groupId>org.omnifaces</groupId>
             <artifactId>omnifaces</artifactId>
-            <version>2.1</version>
+            <version>${omnifaces.version}</version>
+        </dependency>
+
+        <dependency>
+            <groupId>net.bootsfaces</groupId>
+            <artifactId>bootsfaces</artifactId>
+            <version>0.7.0</version>
+        </dependency>
+
+        <!-- PrimeFaces -->
+        <dependency>
+            <groupId>org.primefaces</groupId>
+            <artifactId>primefaces</artifactId>
+            <version>${primefaces.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>org.primefaces.extensions</groupId>
+            <artifactId>primefaces-extensions</artifactId>
+            <version>${primefaces.ext.version}</version>
+            <exclusions>
+                <exclusion>
+                    <groupId>org.primefaces</groupId>
+                    <artifactId>primefaces</artifactId>
+                </exclusion>
+            </exclusions>
+        </dependency>
+        <dependency>
+            <groupId>org.primefaces.extensions</groupId>
+            <artifactId>resources-ckeditor</artifactId>
+            <version>2.0.0</version>
         </dependency>
 
     </dependencies>
