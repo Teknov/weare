@@ -1,0 +1,3 @@
+INSERT INTO people_test (id, first_name, last_name, address, city, telephone, last_modified, last_modified_by, version) VALUES (1, 'Kenneth', 'Mandawe', 'East Residences Ortigas', 'Pasig', '09291129300', NOW(), 'SYSTEM', 0);
+INSERT INTO people_test (id, first_name, last_name, address, city, telephone, last_modified, last_modified_by, version) VALUES (2, 'Kevin', 'Cayabyab', 'Guadalupe', 'Makati', '6085551749', NOW(), 'SYSTEM', 0);
+INSERT INTO people_test (id, first_name, last_name, address, city, telephone, last_modified, last_modified_by, version) VALUES (3, 'Japs', 'Pili', 'Jazz Residences', 'Makati', '6085558763', NOW(), 'SYSTEM', 0);
