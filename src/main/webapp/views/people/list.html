@@ -1,0 +1,11 @@
+<hr/>
+
+<table class="table table-striped">
+	<thead class="text-center">Search Result:</thead>
+	<tr ng-repeat="person in persons">
+		<td><a href="#/api/people?lastName{{person.lastName}}">{{person.lastName}}</a></td>
+		<td>{{person.firstName}}</td>
+		<td>{{person.city}}</td>
+		<td>{{person.telephone}}</td>
+	</tr>
+</table>
