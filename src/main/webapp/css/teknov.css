@@ -5,10 +5,27 @@
 	background: #ECEFF1 url("../img/bg-intro-07.svg") bottom center no-repeat;
 }
 
+#section1 {
+	background: white url("../img/bg-services-08.svg") bottom center no-repeat;
+}
+
 #section1 .svg-container {
 	width: 70%;
 	margin: 0 auto;
 }
+
+#section2 {
+	 background: #263238;
+}
+
+#section2 p{
+	 font-size: 36px;
+	 color: #FFFFFF;
+	 font-family: 'Roboto', sans-serif;
+	 text-align: center;
+	 margin: 2em 0; 
+	}
+
 
 @media (max-width: 768px) {
 	#section1 .svg-container {
