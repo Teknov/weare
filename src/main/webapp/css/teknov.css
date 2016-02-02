@@ -1,0 +1,17 @@
+.navbar-brand {
+    padding: 10px 15px;	
+}
+#section0 {
+	background: #ECEFF1 url("../img/bg-intro-07.svg") bottom center no-repeat;
+}
+
+#section1 .svg-container {
+	width: 70%;
+	margin: 0 auto;
+}
+
+@media (max-width: 768px) {
+	#section1 .svg-container {
+		width: 40%;
+	}
+}
