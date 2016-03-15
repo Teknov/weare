@@ -8,7 +8,7 @@ import org.springframework.context.annotation.Configuration;
 /**
  * Created with IntelliJ IDEA.
  *
- * @author Kenneth Mandawe
+ * @author Kenneth Mandawess
  *         Date: 11/6/2015
  *         Time: 6:30 PM
  */
