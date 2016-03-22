@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 400 400" style="enable-background:new 0 0 400 400;" xml:space="preserve">
+<style type="text/css">
+    .pad{opacity:.54;fill:none;stroke:#000;stroke-width:2;stroke-dasharray: 1200; stroke-dashoffset: 1200;animation: dash 4s linear forwards;}
+    .checkbox{opacity:.54;fill:none;stroke:#000;stroke-width:2;stroke-dasharray: 1200; stroke-dashoffset: 1200;animation: dash 2s 4s linear forwards;}
+    .check{fill:none;stroke:#FB8C00;stroke-width:4;stroke-dasharray: 1200; stroke-dashoffset: 1200;}
+    .check-1{animation: dash 2s 4.5s linear forwards;}
+    .check-2{animation: dash 2s 5s linear forwards;}
+    .check-3{animation: dash 2s 8s linear forwards;}
+    @keyframes dash {
+        to {
+        stroke-dashoffset: 0;
+        }
+    }
+</style>
+<g class="pad">
+	<path d="M293.9,15.1l-53.4,10.2l-1.3-6.9c-0.2-1.2-0.1-0.5-1.3-0.3L109.5,42.6c-1.2,0.2-3.2-0.1-3,1.1l1.3,6.9
+		l-51.5,9.8c-1.2,0.2-3.6,1.1-3.3,2.2l62.5,327.4c0.2,1.2,3.1,2.7,4.2,2.5l237.6-45.4c1.2-0.2,0.3-2.1,0.1-3.3L295,16.5
+		C294.7,15.3,295.1,14.8,293.9,15.1z"/>
+	<path d="M237.5,18.1l-48.4,9.2c0.2-2.2,0.2-3.9-0.2-5.7c-1.8-9.2-10.7-15.4-19.9-13.7s-15.2,10.9-13.5,20.1
+		c0.4,1.9,1,3.3,1.9,5.3l-48.4,9.2c-1.2,0.2-2.6,0.9-2.3,2.1l2.1,11.1c0.2,1.2,2.1,2.9,3.3,2.7l128.4-24.5c1.2-0.2,1.2-2.3,1-3.5
+		l-2.1-11.1C239.2,18.3,238.7,17.9,237.5,18.1z"/>
+	<ellipse transform="matrix(0.9822 -0.1876 0.1876 0.9822 -0.8182 32.5347)" cx="171.5" cy="20.6" rx="4.9" ry="4.9"/>
+</g>
+<g class="checkbox">
+	<path d="M164.1,148.6L104.3,160c-1.1,0.2-2.1-0.5-2.3-1.6L90.6,98.7c-0.2-1.1,0.5-2.1,1.6-2.3l59.7-11.4
+		c1.1-0.2,2.1,0.5,2.3,1.6l11.4,59.7C165.9,147.3,165.1,148.4,164.1,148.6z"/>
+	<line x1="168.4" y1="90.7" x2="247.9" y2="75.5"/>
+	<line x1="257.5" y1="73.7" x2="275.5" y2="70.3"/>
+	<line x1="171" y1="104.5" x2="278.2" y2="84.1"/>
+	<line x1="174.4" y1="122.6" x2="227.5" y2="112.4"/>
+	<line x1="248.7" y1="108.4" x2="281.6" y2="102.1"/>
+	<line x1="177.1" y1="136.4" x2="248.2" y2="122.8"/>
+</g>
+<g class="checkbox">
+	<path d="M182.9,247.3l-59.7,11.4c-1.1,0.2-2.1-0.5-2.3-1.6l-11.4-59.7c-0.2-1.1,0.5-2.1,1.6-2.3l59.7-11.4
+		c1.1-0.2,2.1,0.5,2.3,1.6l11.4,59.7C184.7,246,184,247.1,182.9,247.3z"/>
+	<line x1="187.2" y1="189.4" x2="266.8" y2="174.2"/>
+	<line x1="276.3" y1="172.4" x2="294.4" y2="169"/>
+	<line x1="189.8" y1="203.2" x2="297" y2="182.8"/>
+	<line x1="193.3" y1="221.3" x2="246.3" y2="211.1"/>
+	<line x1="267.6" y1="207.1" x2="300.5" y2="200.8"/>
+	<line x1="195.9" y1="235.1" x2="267" y2="221.5"/>
+</g>
+<g class="checkbox">
+	<path d="M200.7,346.2L141,357.6c-1.1,0.2-2.1-0.5-2.3-1.6l-11.4-59.7c-0.2-1.1,0.5-2.1,1.6-2.3l59.7-11.4
+		c1.1-0.2,2.1,0.5,2.3,1.6l11.4,59.7C202.5,344.9,201.8,345.9,200.7,346.2z"/>
+	<line x1="205" y1="288.3" x2="284.6" y2="273.1"/>
+	<line x1="294.1" y1="271.3" x2="312.2" y2="267.8"/>
+	<line x1="207.6" y1="302.1" x2="314.8" y2="281.6"/>
+	<line x1="211.1" y1="320.2" x2="264.1" y2="310"/>
+	<line x1="285.4" y1="306" x2="318.3" y2="299.7"/>
+	<line x1="213.7" y1="333.9" x2="284.8" y2="320.4"/>
+</g>
+<polyline class="check check-1" points="108.8,139.7 131.3,145.1 168.9,74.5 "/>
+<polyline class="check check-2" points="133,239.7 145.4,247 198.4,187.3 "/>
+<polyline class="check check-3" points="152.1,339.5 172.3,341.9 207.2,274.7 "/>
+</svg>

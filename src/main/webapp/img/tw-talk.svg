@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+							viewBox="0 0 400 400" style="enable-background:new 0 0 400 400;" xml:space="preserve">
+							<defs>
+							<style type="text/css">
+							.body{opacity:.54;fill:none;stroke:#000;stroke-width:2;stroke-dasharray: 1200; stroke-dashoffset: 1200;animation: dash 6s 5s linear forwards;}
+							.face{opacity:.54;fill:none;stroke:#000;stroke-width:2;stroke-dasharray: 1200; stroke-dashoffset: 1200;animation: dash 2s 2s linear forwards;}
+							#talk-bubble{fill:none;stroke:#FB8C00;stroke-width:4;stroke-dasharray: 1200; stroke-dashoffset: 1200;animation: dash 2s linear forwards;}
+							@keyframes dash {
+							to {
+							stroke-dashoffset: 0;
+							}
+							}
+							</style>
+							</defs>
+					<path class="body" d="M184.7,371.6c0-0.3-8.7-10.9,9.3-13.6s46-12,46-12l29.7,23l-36.3,13.7C233.3,382.7,184.7,394.5,184.7,371.6z"/>
+					<polyline class="body" points="194.2,358 200,333 207,333 200.6,356.8 "/>
+					<polyline class="body" points="189.1,381.1 187.2,386.8 189.1,391.2 193,388.8 194.2,385.7 "/>
+					<polyline class="body" points="183,369 77,369 36.8,398 "/>
+					<path class="body" d="M129,237l33.4,4l34.6,3.7L207,275c0,0-5.2-16.7-24.4-23.3s-23.6-9.9-23.6-9.9"/>
+					<circle class="body" cx="158.6" cy="256" r="12.9"/>
+					<path class="body" d="M149.6,267c0,0-8.7,58.6-8.4,70.6c0.3,12,4.1,31.4,4.1,31.4H173c0,0,6.3-32.1,4-57.8S166.5,267,166.5,267H149.6
+					z"/>
+					<path class="body" d="M243.3,246c0,0,42,5.7,57,29s0,83,0,83l-12.3,5.3c0,0-1.1,0.5-2.8,1.2c-3.8,1.7-10.5,4.4-12.5,4.4
+					c-3,0-33.7-18-32.7-23s1-13,8.7-7.7c7.7,5.3,4,4.3,12,13c8,8.7,21,12,21,12l5.2,0.5"/>
+					<path class="body" d="M246,285.3c0,0,6.3,10.3,5.7,22.2c-0.7,11.8-3,30.8-3,30.8"/>
+					<path class="body" d="M125,237c0,0-26.5,8.5-39.5,30S60,336,59,346"/>
+					<path class="body" d="M189.1,391.4c0,0,0.6,1.2-8.1-0.1s-13-5.5-13-5.5l-2.7,5.5l-6-2.5c0,0-5-1.6-5.7,0c-0.7,1.6-6,3.1-6,3.1
+					L139,389h-10l-7.7-0.2"/>
+					<path class="face" d="M213.3,123.3c0,0-2.6-16,17.4-15.3s16.7,15.3,16.7,15.3"/>
+					<path class="face" d="M177.3,120.3c0,0,0-18.7-18.7-12C140,115,141.3,125,141.3,125"/>
+					<path class="face" d="M125,157.7c0,0,82,57.3,144.7,0"/>
+					<path class="face" d="M223.8,89.8c12.8-0.7,27,5.1,27,5.1"/>
+					<path class="face" d="M171.1,92.8c0,0-9.4-1.9-19.7-2.2s-13.6,3.2-13.6,3.2"/>
+					<path id="talk-bubble" d="M102,271l27-34c0,0-126-3.3-101-125.2S160.4,8,227.2,9S344,24,357,82s30,121-35,147s-163,12.7-163,12.7L102,271z"/>
+					</svg>
