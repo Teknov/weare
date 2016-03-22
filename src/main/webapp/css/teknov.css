@@ -1,6 +1,11 @@
 .navbar-brand {
     padding: 10px 15px;	
 }
+
+.section>.fp-tableCell{
+	padding-top:51px;
+}
+
 #section0 {
 	background: #ECEFF1 url("../img/bg-intro-07.svg") bottom center no-repeat;
 }
