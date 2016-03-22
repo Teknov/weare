@@ -15,7 +15,7 @@ teknovApp.directive('initDirective',['$rootScope',function($rootScope) {
                     console.log('initialised');
                     listener();
                     $rootScope.$broadcast('initialised');
-                }, 50);
+                }, 500);
             });
         }
     };
